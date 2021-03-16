@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style>
+            #buitenste-blauwe {
+                background: #2297D3;
+                border-radius: 50%;
+                width: 500px;
+                height: 500px;
+                position: relative;
+                /* 
+                    Child elements with absolute positioning will be 
+                    positioned relative to this div 
+                */
+            }
+            #witte-circel {
+                position: absolute;
+                background: #ffffff;
+                border-radius: 50%;
+                height: 300px;
+                width: 300px;
+                /*
+                    Put top edge and left edge in the center
+                */
+                top: 40%;
+                left: 50%;
+                margin: -150px 0px 0px -150px;
+                /* 
+                    Offset the position correctly with
+                    minus half of the width and minus half of the height 
+                */
+            }
+            #blauwe-elips {
+                background: #2297D3;
+                border-radius: 50%;
+                position: absolute;
+                width: 200px;
+                height: 250px;
+                top: 10%;
+                left: 15%;
+                margin: 0px 0px 0px 10px;
+            }
+            #witte-poot {
+                width: 30px;
+                height: 350px;
+                background: #ffffff;
+                position: absolute;
+                left: 45%;
+            }
+
+            #triangle-topleft {
+                width: 0;
+                height: 0;
+                border-top: 60px solid #2297D3;
+                border-right: 60px solid transparent;
+                position: absolute;
+                left: 35%;
+                top: -12%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="buitenste-blauwe">
+            <div id="witte-circel">
+                <div id="blauwe-elips">
+                    <div id="witte-poot">
+                        
+                    </div>
+                    <div id="triangle-topleft">
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>
