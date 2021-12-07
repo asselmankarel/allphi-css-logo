@@ -6,4 +6,4 @@ The goal of this mini-project was an attempt to recreate the logo of AllPhi, a w
 
 ## Demo
 
-Demo can be found [here](https://rubenverheyen-allphi.github.io/allphi-css-logo/).
+Demo can be found [here](https://asselmankarel.github.io/allphi-css-logo/).
